@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+#screen{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#result_value{
+    margin: 0 auto;
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+}
